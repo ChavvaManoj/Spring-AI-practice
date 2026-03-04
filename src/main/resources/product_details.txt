@@ -1,0 +1,179 @@
+Title: Wireless Bluetooth Headphones
+Description: Over-ear wireless headphones with noise isolation and long battery life.
+Price: 2499
+Category: Electronics
+Features: Bluetooth 5.3, 40-hour battery, Built-in mic, Fast charging
+
+Title: Smart Fitness Watch
+Description: Track your daily activities, heart rate, and sleep patterns.
+Price: 3999
+Category: Electronics
+Features: Heart rate monitor, Sleep tracking, Waterproof, 7-day battery
+
+Title: Stainless Steel Water Bottle
+Description: Vacuum insulated bottle that keeps drinks hot or cold for hours.
+Price: 699
+Category: Home & Kitchen
+Features: 1L capacity, Leak-proof lid, BPA free, Double wall insulation
+
+Title: Gaming Mouse RGB
+Description: High precision gaming mouse with customizable RGB lighting.
+Price: 1499
+Category: Electronics
+Features: 7200 DPI, 6 programmable buttons, RGB lighting, Ergonomic design
+
+Title: Office Laptop Backpack
+Description: Durable laptop backpack suitable for office and travel.
+Price: 1899
+Category: Accessories
+Features: 15.6 inch laptop slot, Water resistant, USB charging port, Anti-theft pocket
+
+Title: Air Fryer 5L
+Description: Oil-free cooking air fryer with digital controls.
+Price: 5999
+Category: Home Appliances
+Features: 5L capacity, Digital display, 8 preset modes, Auto shut-off
+
+Title: LED Desk Lamp
+Description: Adjustable brightness desk lamp for study and office use.
+Price: 999
+Category: Home & Kitchen
+Features: Touch control, 3 brightness levels, Eye protection mode, Flexible neck
+
+Title: Portable Power Bank 20000mAh
+Description: High capacity power bank for charging smartphones and tablets.
+Price: 1799
+Category: Electronics
+Features: Fast charging, Dual USB output, LED indicator, Lightweight
+
+Title: Electric Kettle 1.8L
+Description: Fast boiling electric kettle with auto shut-off feature.
+Price: 1299
+Category: Home Appliances
+Features: Stainless steel body, Auto shut-off, Boil-dry protection, 1500W power
+
+Title: Yoga Mat Non-Slip
+Description: Comfortable and durable yoga mat for daily exercise.
+Price: 799
+Category: Fitness
+Features: Anti-slip surface, 6mm thickness, Lightweight, Easy to roll
+
+Title: Mechanical Keyboard
+Description: Backlit mechanical keyboard for gaming and typing.
+Price: 3499
+Category: Electronics
+Features: Blue switches, RGB backlight, Anti-ghosting, USB wired
+
+Title: Microwave Oven 20L
+Description: Compact microwave oven ideal for small families.
+Price: 6499
+Category: Home Appliances
+Features: 20L capacity, 5 power levels, Defrost function, Child lock
+
+Title: Running Shoes Men
+Description: Lightweight and breathable running shoes.
+Price: 2999
+Category: Footwear
+Features: Mesh upper, Cushioned sole, Anti-slip grip, Lightweight
+
+Title: Leather Wallet
+Description: Premium genuine leather wallet with multiple compartments.
+Price: 899
+Category: Accessories
+Features: RFID protection, 6 card slots, Coin pocket, Slim design
+
+Title: Bluetooth Speaker Portable
+Description: Compact speaker with powerful sound output.
+Price: 1999
+Category: Electronics
+Features: 10-hour playtime, Waterproof, Deep bass, Built-in mic
+
+Title: Study Table Wooden
+Description: Minimalist wooden study table for home office.
+Price: 5499
+Category: Furniture
+Features: Spacious top, Drawer storage, Sturdy legs, Easy assembly
+
+Title: Refrigerator 190L
+Description: Energy efficient single door refrigerator.
+Price: 14999
+Category: Home Appliances
+Features: 190L capacity, 4-star rating, Toughened glass shelves, Stabilizer free
+
+Title: DSLR Camera
+Description: Professional camera with high resolution image quality.
+Price: 45999
+Category: Electronics
+Features: 24MP sensor, Full HD video, WiFi enabled, Interchangeable lens
+
+Title: Coffee Maker
+Description: Automatic drip coffee maker for home use.
+Price: 2499
+Category: Home Appliances
+Features: 1.2L capacity, Auto shut-off, Reusable filter, Anti-drip system
+
+Title: Ceiling Fan 48 inch
+Description: Energy saving ceiling fan with silent operation.
+Price: 2199
+Category: Home Appliances
+Features: 48 inch blades, 3 speed control, Low noise, Copper motor
+
+Title: Hair Dryer 2000W
+Description: Powerful hair dryer with multiple heat settings.
+Price: 1299
+Category: Personal Care
+Features: 2000W power, Cool shot, 3 heat modes, Foldable handle
+
+Title: Electric Toothbrush
+Description: Rechargeable toothbrush with deep cleaning technology.
+Price: 1599
+Category: Personal Care
+Features: 2-minute timer, Soft bristles, USB charging, Waterproof
+
+Title: Smart LED TV 43 inch
+Description: Full HD smart television with streaming apps.
+Price: 23999
+Category: Electronics
+Features: 43 inch display, Android TV, WiFi enabled, HDMI ports
+
+Title: Pressure Cooker 5L
+Description: Stainless steel pressure cooker for fast cooking.
+Price: 1799
+Category: Kitchen
+Features: 5L capacity, Safety valve, Induction compatible, Durable body
+
+Title: Bed Sheet King Size
+Description: Soft cotton king size bed sheet set.
+Price: 1499
+Category: Home & Kitchen
+Features: 100% cotton, 2 pillow covers, Fade resistant, Machine washable
+
+Title: Smartphone 128GB
+Description: Latest generation smartphone with high performance processor.
+Price: 18999
+Category: Electronics
+Features: 128GB storage, 8GB RAM, 50MP camera, 5000mAh battery
+
+Title: Office Chair Ergonomic
+Description: Adjustable ergonomic chair for long working hours.
+Price: 6999
+Category: Furniture
+Features: Lumbar support, Adjustable height, Breathable mesh, 360 rotation
+
+Title: Tablet 10 inch
+Description: Lightweight tablet ideal for entertainment and work.
+Price: 14999
+Category: Electronics
+Features: 10 inch display, 64GB storage, WiFi + LTE, 6000mAh battery
+
+Title: Induction Cooktop
+Description: Portable induction cooktop with digital control panel.
+Price: 2999
+Category: Kitchen
+Features: 2000W power, Touch panel, Timer function, Overheat protection
+
+Title: Men’s Casual T-Shirt
+Description: Comfortable cotton t-shirt for everyday wear.
+Price: 499
+Category: Clothing
+Features: 100% cotton, Regular fit, Breathable fabric, Machine washable
