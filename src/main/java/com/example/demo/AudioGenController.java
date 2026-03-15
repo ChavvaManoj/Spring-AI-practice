@@ -2,6 +2,9 @@ package com.example.demo;
 
 
 import org.springframework.ai.audio.transcription.AudioTranscriptionPrompt;
+import org.springframework.ai.audio.tts.TextToSpeechPrompt;
+import org.springframework.ai.openai.OpenAiAudioSpeechModel;
+import org.springframework.ai.openai.OpenAiAudioSpeechOptions;
 import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
 import org.springframework.ai.openai.OpenAiAudioTranscriptionOptions;
 import org.springframework.ai.openai.api.OpenAiAudioApi;
@@ -15,8 +18,11 @@ public class AudioGenController {
 
     private OpenAiAudioTranscriptionModel audioModel;
 
-    public AudioGenController(OpenAiAudioTranscriptionModel audioModel){
+    private OpenAiAudioSpeechModel audioSpeechModel;
+
+    public AudioGenController(OpenAiAudioTranscriptionModel audioModel,OpenAiAudioSpeechModel audioSpeechModel){
         this.audioModel=audioModel;
+        this.audioSpeechModel=audioSpeechModel;
     }
 
 
@@ -35,4 +41,20 @@ public class AudioGenController {
         return audioModel.call(prompt).getResult().getOutput();
 
     }
+
+    @PostMapping("api/tts")
+    public byte[] tts(@RequestParam String text){
+
+
+        OpenAiAudioSpeechOptions options = OpenAiAudioSpeechOptions.builder()
+                .speed(1.5)
+                .voice(OpenAiAudioApi.SpeechRequest.Voice.NOVA)
+                .build();
+
+        TextToSpeechPrompt prompt = new TextToSpeechPrompt(text,options);
+
+        return audioSpeechModel.call(prompt).getResult().getOutput();
+    }
+
+
 }
