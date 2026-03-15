@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
@@ -42,7 +43,22 @@ public class OpenAIController {
 //                .build();
 //    }
 
-    @GetMapping("/api/{message}")
+
+    @PostMapping("/api/ask")
+    public String getAnswerFromRAG(@RequestParam String query){
+
+
+        return chatClient
+                .prompt(query)
+//                .advisors(new QuestionAnswerAdvisor(vectorStore))
+                .call()
+                .content();
+
+    }
+
+
+
+//    @GetMapping("/api/{message}")
     public ResponseEntity<String> getAnswer(@PathVariable String message) {
 
 //        String response = chatClient
