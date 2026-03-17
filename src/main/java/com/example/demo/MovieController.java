@@ -5,11 +5,7 @@ import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.ai.converter.BeanOutputConverter;
 import org.springframework.ai.converter.ListOutputConverter;
-import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.convert.support.DefaultConversionService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -92,7 +88,9 @@ public class MovieController {
         String message = """
             Top 5 movies of {name}
             {format}
-            Return only JSON.
+            
+                Do not wrap the array in any object.
+                                            Return only JSON.
             """;
 
         BeanOutputConverter<List<Movie>> opCon = new BeanOutputConverter<>(
